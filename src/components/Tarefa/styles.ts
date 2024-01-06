@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import variaveis from '../../../styles/variaveis'
+import variaveis from '../../styles/variaveis'
 
-import * as enums from './../../../utils/enums/Tarefa'
+import * as enums from '../../utils/enums/Tarefa'
 
 type TagProps = {
   prioridade?: enums.Prioridade
@@ -16,7 +16,7 @@ function retornaCorDeFundo(props: TagProps): string {
       return variaveis.amarelo2
   } else {
     if (props.status === enums.Status.PENDENTE) return variaveis.amarelo
-    if (props.status === enums.Status.COMCLUIDA) return variaveis.verde
+    if (props.status === enums.Status.CONCLUIDAS) return variaveis.verde
   }
 
   return '#ccc'

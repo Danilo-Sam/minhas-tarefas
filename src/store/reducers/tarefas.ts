@@ -13,7 +13,7 @@ const initialState: TarefasState = {
       id: 1,
       descricao: 'Estudar JavaScriptrevendo o exercíciodo modúlo 7',
       prioridade: enums.Prioridade.NORMAL,
-      status: enums.Status.COMCLUIDA,
+      status: enums.Status.CONCLUIDAS,
       titulo: 'Estudar JavaScript'
     },
     {
