@@ -14,7 +14,7 @@ const initialState: FiltroState = {
 }
 
 const filtroSlice = createSlice({
-  name: '',
+  name: 'filtro',
   initialState,
   reducers: {
     alteraTermo: (state, action: PayloadAction<string>) => {
