@@ -1,4 +1,13 @@
 /* eslint-disable prettier/prettier */
-const Cadastro = () => <div>nova tarefa</div>
+import BarraLateral from "../../containers/BarraLateral"
+import Formulario from "../../containers/Formulario"
+
+const Cadastro = () => (
+  <>
+    {/* barra lateral */}
+    <BarraLateral />
+    <Formulario />
+  </>
+)
 
 export default Cadastro
